@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "contains api of zing mp3",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranleminhhoang2410/ZingMp3-ui.git"
+  },
+  "keywords": [
+    "api",
+    "zing",
+    "mp3"
+  ],
+  "author": "HoangTLM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranleminhhoang2410/ZingMp3-ui/issues"
+  },
+  "homepage": "https://github.com/tranleminhhoang2410/ZingMp3-ui#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "zingmp3-api-full": "^1.0.14"
+  }
+}
